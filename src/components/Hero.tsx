@@ -89,42 +89,37 @@ export function Hero() {
               </div>
             </div>
           </motion.div>
+
           <h1>
             <span className="ln">
-              <motion.span {...rise(0)}>
-                Dari{" "}
-                <motion.span
-                  className="na"
-                  tabIndex={0}
-                  initial={{ x: 0 }}
-                  animate={{ x: [0, -4, 4, -3, 2, 0] }}
-                  transition={{ duration: 0.5, delay: 1.3 }}
-                >
-                  #N/A
-                  <span className="tip">Error klasik: data yang dicari tidak ketemu. Biasanya karena range VLOOKUP-nya salah.</span>
-                </motion.span>{" "}
-                sampai
+              <motion.span {...rise(0)}>Berhenti bingung sama data.</motion.span>
+            </span>
+            <span className="ln">
+              <motion.span {...rise(1)}>
+                Mulai <span className="hl">naik kelas</span> di kantor,
               </motion.span>
             </span>
             <span className="ln">
-              <motion.span {...rise(1)}>dashboard yang</motion.span>
-            </span>
-            <span className="ln">
-              <motion.span {...rise(2)}>dipuji atasan.</motion.span>
+              <motion.span {...rise(2)}>
+                dengan dashboard yang <span className="hl">dipuji atasan.</span>
+              </motion.span>
             </span>
           </h1>
+
           <motion.p className="lead" {...fade(0.45)}>
             {site.heroLead}
           </motion.p>
+
           <motion.div className="cta-row" {...fade(0.55)}>
             <a className="btn btn-primary lg" href="#produk">
-              Lihat produk <Icon name="arrow" className="ic-arrow" />
+              Beli sekarang <Icon name="arrow" className="ic-arrow" />
             </a>
             <a className="btn btn-line lg" href={waLink(`Halo ${site.name}, saya mau tanya soal produknya.`)} target="_blank" rel="noopener">
               <Icon name="chat" />
               Tanya via WhatsApp
             </a>
           </motion.div>
+
           <motion.dl className="facts" {...fade(0.65)}>
             <div>
               <dt>Topik</dt>

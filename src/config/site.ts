@@ -10,7 +10,7 @@ export const site = {
   handle: "@bludata09",
   tiktok: "https://www.tiktok.com/@bludata09",
   /** GANTI: nomor WhatsApp admin, format 62..., tanpa + / spasi / strip */
-  whatsapp: "6281234567890",
+  whatsapp: "6282319830019",
   /** Jam admin online (WIB) — hanya untuk status di halaman */
   adminHours: { open: 8, close: 21 },
   description:
